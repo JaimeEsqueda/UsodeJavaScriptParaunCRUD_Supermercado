@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Evaluacion_JaimeEsqueda/Estilos.css">
+    <title>Supermercado Administracion</title>
+</head>
+<body>
+    <h1 class="flexbox-container3">Supermercado</h1>
+    <a href="tienda.html" id="BotonTienda" >Ver los productos en Tienda</a></a>
+    <div class="flexbox-container">
+        <div class="form">
+            <div id="MenuProductos"></div>
+            <br>
+        </div>
+        <div>
+            <div id="">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Descripcion</th>
+                            <th>Precio</th>
+                            <th>Eliminar</th>
+                            <th>Editar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="TablaProductos">
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <form action="#" id = "formulario">
+        <input type="submit" id="BotonAgregarInventario" value="AgregarInventario" class="boton">
+        <br>
+        <label for="">Codigo del producto</label>
+        <input type="number" name="codigo" id="codigo">
+        <br>
+        <label for="">Descripción</label>
+        <input type="text" name="descripcion" id="descripcion">
+        <br>
+        <label for="">Precio</label>
+        <input type="number" name="precio" id="precio">
+        <br>
+        <label for="">Ruta de la Imagen</label>
+        <input type="text" name="imagen" id="imagen">
+        <br>
+        <input type="submit" id="BotonAgregar" value="Agregar" class="boton">
+        <input type="submit" id="BotonEditar" value="Editar" class="boton">
+    </form>
+    <br>
+    
+    <script src="app.js">
+
+    </script>
+</body>
+</html>
